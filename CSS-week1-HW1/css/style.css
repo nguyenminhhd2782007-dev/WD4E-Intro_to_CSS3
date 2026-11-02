@@ -1,43 +1,39 @@
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 150%;
-}
 
-/* Thẻ header: Chỉnh màu nền */
-header {
-    background-color: #f2f2f2;
-}
-
-/* Thẻ nav: Chỉnh màu nền */
-nav {
-    background-color: #333333;
-}
-
-/* Thẻ main: Chỉnh màu nền và kích thước chữ */
-main {
-    background-color: #ffffff;
-    font-size: 100%;
-}
-
-/* Thẻ footer: Chỉnh màu nền */
-footer {
-    background-color: #e6e6e6;
-}
-
-/* Thẻ li: Chỉnh hiển thị và độ rộng */
+/*
 li {
     display: inline-block;
     width: 150px;
 }
+*/
 
-/* Thẻ h1: Chỉnh căn lề, phông chữ và màu sắc */
-h1 {
-    text-align: center;
-    font-family: Arial, sans-serif;
-    color: #1a1a1a;
+/* Định dạng nav */
+nav {
+    display: inline-block;
+    width: 80%;
 }
 
-/* Thẻ p: Chỉnh khoảng cách dòng */
-p {
-    line-height: 1.5;
+/* Ảnh trong nav */
+nav img {
+    width: 10%;
+}
+
+/* Định dạng class grid */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 20px;
+}
+
+/* Ảnh trong grid */
+.grid img {
+    width: 100%;
+}
+
+/* Định dạng class flex */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
